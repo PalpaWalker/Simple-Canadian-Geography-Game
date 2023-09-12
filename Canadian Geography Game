@@ -1,0 +1,64 @@
+print('Welcome to the ultimate Canadian Geography game show! Lets begin')
+score = 0
+if input('What is the Capital of Ontario : ') == 'Toronto':
+    print('Correct')
+    score = score +1
+else:
+    print('incorrect')
+    
+
+if input('What is the Capital of Alberta : ') == 'Edmonton':
+    print('Correct') 
+    score = score +1
+else:
+    print('incorrect')
+
+if input('What is the Capital of Manitoba : ') == 'Winnipeg':
+    print('Correct') 
+    score = score +1
+else:
+    print('incorrect')
+
+
+if input('What is the Capital of Yukon : ') == 'WhiteHorse':
+    print('Correct') 
+    score = score +1
+else:
+    print('incorrect')
+
+
+if input('What is the Capital of Pei : ') == 'Charlottetown':
+    print('Correct') 
+    score = score +1
+else:
+    print('incorrect')
+
+
+if input('What is the Capital of Bc : ') == 'Victoria':
+    print('Correct') 
+    score = score +1
+else:
+    print('incorrect')
+
+if score == 0:
+  print('your score was 0/6')
+
+if score == 1:
+  print('your score was 1/6')
+
+if score == 2:
+  print('your score was 2/6')
+
+if score == 3:
+  print('your score was 3/6')
+
+if score == 6:
+  print('Perfect score. You are great at Canadian Geography!')  
+
+
+if score >= 4:
+  print('Your final score was :')
+  print(score,'/6')
+  print('Well done, you know your Canadian Geography')
+else:
+  print('You need to review your Capitals and Provinces more!')
